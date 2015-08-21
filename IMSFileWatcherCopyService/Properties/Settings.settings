@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IMSFileWatcherCopyService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SourceUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">user</Value>
+    </Setting>
+    <Setting Name="SourcePassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sinet5609</Value>
+    </Setting>
+    <Setting Name="SourceDomain" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SourceServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\G0000102\d$</Value>
+    </Setting>
+    <Setting Name="SourceDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\SinetNode\LogTasks\TagLogTask</Value>
+    </Setting>
+    <Setting Name="DestinationServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\fw-fs-02.spmflo.com\shares</Value>
+    </Setting>
+    <Setting Name="DestinationDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\IMS-Data\IMS Test Stand Data</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
