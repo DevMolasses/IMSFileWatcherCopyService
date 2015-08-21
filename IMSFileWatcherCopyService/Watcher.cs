@@ -19,6 +19,11 @@ namespace IMSFileWatcherCopyService
 
         protected override void OnStart(string[] args)
         {
+            ThreadPool.QueueUserWorkItem(_ => StartService());
+        }
+
+        private void StartService()
+        {
             Log.WriteErrorLog("IMS File Watcher Copy service started");
             EstablishConnectionToSource();
             ThreadPool.QueueUserWorkItem(_ => FileCopier.CopyOldFiles(nci.SourceDirectory, nci.DestinationDirectory));
