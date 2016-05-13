@@ -18,7 +18,7 @@
       <Value Profile="(Default)">\SinetNode\LogTasks\TagLogTask</Value>
     </Setting>
     <Setting Name="DestinationServer" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\fw-fs-02.spmflo.com\shares</Value>
+      <Value Profile="(Default)">E:\shares</Value>
     </Setting>
     <Setting Name="DestinationDirectory" Type="System.String" Scope="User">
       <Value Profile="(Default)">\IMS-Data\IMS Test Stand Data</Value>

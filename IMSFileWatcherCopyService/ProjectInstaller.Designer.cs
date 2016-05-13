@@ -39,6 +39,9 @@
             // 
             // serviceInstaller1
             // 
+            this.serviceInstaller1.Description = "This service monitors the IMS unit mounted in the R&D test stand and copies the f" +
+    "iles to the computer the service is installed on.";
+            this.serviceInstaller1.DisplayName = "IMS File Watcher Copy Service";
             this.serviceInstaller1.ServiceName = "IMS File Watcher Copy Service";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 

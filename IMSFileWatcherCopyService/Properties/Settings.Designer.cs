@@ -85,7 +85,7 @@ namespace IMSFileWatcherCopyService.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\fw-fs-02.spmflo.com\\shares")]
+        [global::System.Configuration.DefaultSettingValueAttribute("E:\\shares")]
         public string DestinationServer {
             get {
                 return ((string)(this["DestinationServer"]));
